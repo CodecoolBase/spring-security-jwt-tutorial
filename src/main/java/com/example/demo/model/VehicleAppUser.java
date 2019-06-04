@@ -11,12 +11,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-@Table(name="users")
+@Table
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class User {
+public class VehicleAppUser {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     Long id;
